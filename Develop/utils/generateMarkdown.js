@@ -14,6 +14,16 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
 
+  ## Table of Contents
+
+  * [Description](#description)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  
+
+
   ## Description
   ${data.description}
 
@@ -28,6 +38,9 @@ function generateMarkdown(data) {
 
   ## Tests
   ${data.tests}
+
+  ## License
+  * This application is covered under the ${data.license} license
 
 `;
 }

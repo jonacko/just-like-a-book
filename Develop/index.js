@@ -103,7 +103,7 @@ const questions = [  {
   {
     type: 'checkbox',
     name: 'contents',
-    message: 'Any additional sections you would like to include in your README?',
+    message: 'Please select a license from this list of options.',
     choices: [
         {
             name: 'MIT',
