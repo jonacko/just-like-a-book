@@ -1,4 +1,4 @@
-# asdfseafseaf
+# sdfsdfdsf
 
   ## Table of Contents
 
@@ -10,28 +10,26 @@
   * [Questions](#questions)
 
   ## Description
-  safdsdfdsf
+  sdfdsfdsf
 
   ## Installation
-  sadfsdfasdf
+  dsfds
 
   ## Usage
-  sadfdsafa
+  dsfs
 
   ## Contributing
-  sdfdsf
+  sdfd
 
   ## Tests
-  dsfadf
+  sdfsd
 
-
-  ## License
- renderLicenseSection(MIT);
-
+ ## License
+    
+    This application is covered under the Apache license.
   
-
 ## Questions 
 * If you have any questions regarding this project, you can:
-* Access my GitHub profile [here](github.com/asdfdsfds)
-* Contact me via email here: sdafdfafsd
+* Access my GitHub profile [here](github.com/sdfsdfdsf)
+* Contact me via email here: dsfds
 

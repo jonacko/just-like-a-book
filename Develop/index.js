@@ -22,7 +22,7 @@ const questions = [  {
   {
     type: 'input',
     name: 'description',
-    message: 'Please briefly describe your project.',
+    message: 'Please briefly describe your project:',
     validate: inputDescription => {
       if (inputDescription) {
           return true;
@@ -61,7 +61,7 @@ const questions = [  {
   {
     type: 'input',
     name: 'installation',
-    message: 'info about installation',
+    message: 'Please provide instructions regarding installation of your application:',
     validate: inputInstallation => {
       if (inputInstallation) {
           return true;
@@ -74,7 +74,7 @@ const questions = [  {
   {
     type: 'input',
     name: 'usage',
-    message: 'info about usage',
+    message: 'Please provide any relevant instructions for using the repo:',
     validate: inputUsage => {
       if (inputUsage) {
           return true;
@@ -87,7 +87,7 @@ const questions = [  {
   {
     type: 'input',
     name: 'contributing',
-    message: 'info about contributing',
+    message: 'Please provide any guidelines regarding contribution to the application:',
     validate: inputContributing => {
       if (inputContributing) {
           return true;
@@ -129,18 +129,15 @@ const questions = [  {
     ]
 },
 
-
-
-
   {
     type: 'input',
     name: 'tests',
-    message: 'info about tests',
+    message: 'Please provide any details regarding testing of the application:',
     validate: inputInstallation => {
       if (inputInstallation) {
           return true;
       } else {
-          console.log('Please provide guidelines on testing your application!');
+          console.log('Please provide guidelines on testing the application!');
           return false;
       }
   }

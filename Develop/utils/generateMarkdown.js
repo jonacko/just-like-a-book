@@ -2,6 +2,8 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {}
 
+// Link for badge
+
 // `![GitHub license](https://img.shields.io/badge/license-${data.license[0]}-blue.svg)`
 
 // TODO: Create a function that returns the license link
@@ -12,10 +14,13 @@ function renderLicenseLink(license) {}
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
 
+console.log(license)
+
   if(license !== 'None'){
     return `## License
     
-    This application is covered under the ${data.license[0]} license.`;
+    This application is covered under the ${license} license.`;
+
     }else {
     return ''
     }
@@ -24,6 +29,8 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
+
+  console.log('inputted data:', data)
   return `# ${data.title}
 
   ## Table of Contents
@@ -50,12 +57,8 @@ function generateMarkdown(data) {
   ## Tests
   ${data.tests}
 
-
-  ## License
- renderLicenseSection(${data.license[0]});
-
+ ${renderLicenseSection(data.license)}
   
-
 ## Questions 
 * If you have any questions regarding this project, you can:
 * Access my GitHub profile [here](github.com/${data.github})
