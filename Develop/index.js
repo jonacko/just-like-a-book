@@ -102,7 +102,7 @@ const questions = [  {
 
   {
     type: 'checkbox',
-    name: 'contents',
+    name: 'license',
     message: 'Please select a license from this list of options.',
     choices: [
         {
