@@ -13,7 +13,8 @@ Contents:
 
 This project was undertaken as a submission for a Birmingham University Bootcamp assignment, with a brief to create a README generator using the Inquirere package in Node.js.  The user story and acceptance criteria are below:
 
-[image 1]
+![image](https://user-images.githubusercontent.com/106882755/188150025-6e6f5cf2-1aa5-4b48-b14e-1eaa88fe8782.png)
+
 
 ## 2. Key features:
 
