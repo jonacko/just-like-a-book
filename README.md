@@ -1,5 +1,5 @@
 # just-like-a-book
-- Challenge 9 assignment for BCU Bootcamp due 05-09-22
+- Challenge 9 assignment for UoB Bootcamp due 05-09-22
 - Walkthrough video link: https://drive.google.com/file/d/1nHLDtEZtiN8jn5fPh0E-A4n2ExqMTuH8/view?usp=sharing
 
 Contents:
