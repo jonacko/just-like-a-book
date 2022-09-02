@@ -1,6 +1,6 @@
 # just-like-a-book
 - Challenge 9 assignment for BCU Bootcamp due 05-09-22
-- Walkthrough video link: https://drive.google.com/file/d/1nHLDtEZtiN8jn5fPh0E-A4n2ExqMTuH8/view
+- Walkthrough video link: https://drive.google.com/file/d/1nHLDtEZtiN8jn5fPh0E-A4n2ExqMTuH8/view?usp=sharing
 
 Contents:
 
@@ -33,5 +33,5 @@ As far as I understand, all acceptance criteria are met.  However if I were to d
 
 ## 4. Credits
 - starter code: https://github.com/coding-boot-camp/potential-enigma
-- license badges: https://github.com/coding-boot-camp/potential-enigma
+- license badges: https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
 
